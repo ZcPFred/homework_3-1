@@ -9,7 +9,9 @@ import pandas as pd
 from datetime import datetime,timedelta,date
 
 # Make a Dash app!
+
 app = dash.Dash(__name__)
+server=app.server
 
 # Define the layout.
 app.layout = html.Div([
